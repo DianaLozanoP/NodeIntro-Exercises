@@ -4,6 +4,7 @@
 //instead of printing to the console. The argument should look like this: `--out output-filename.txt readfile-or-url`.
 
 const fs = require('fs');
+const process = require('process');
 const axios = require('axios');
 const URL = require("url").URL;
 

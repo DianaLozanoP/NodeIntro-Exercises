@@ -9,6 +9,7 @@
 //it decides whether the argument is a file path or a URL and calls either ***cat*** or ***webCat***, respectively.
 
 const fs = require('fs');
+const process = require('process');
 const axios = require('axios');
 const URL = require("url").URL;
 
